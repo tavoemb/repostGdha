@@ -1,0 +1,66 @@
+{
+    "Empresa": 1,
+    "APP_EM": -1,
+    "IdServicio": 169,
+    "IdInstalacion": 1144,
+    "NS": "MBigDataJSPY",
+    "DS": "Multiservicio bigada by Python",
+    "DL": "C:/particiones",
+    "DA": "C:/particiones",
+    "DominioCloud": false,
+    "Version": "20230613.0",
+    "InicioDinamico": true,
+    "EC": true,
+    "ET": true,
+    "Destinatarios": ["rafael@elevenminds.com"],
+    "Copia": [],
+    "CopiaOculta": [],
+    "HTTP": {
+        "Ip": 0,
+        "Puerto": 9021
+    },
+    "ServidoresBD": {
+        "BD1": {
+            "Manejador": 0, "Tipo": 0, "Ip": 218212544, "Puerto": 5432,
+            "BD": "C0-49-C6-D9-61-75-55-AC-FC-90-20-48-3E-D2-C2-E0",
+            "Usuario": "D5-0B-A7-AF-6F-34-81-2B-10-A6-3C-3C-24-44-D7-EB",
+            "Contrasena": "D8-EA-86-45-E7-3A-DC-F1-57-3A-D4-3E-0C-3F-EE-AE",
+            "NumeroConexiones": 3
+        },
+        "BD2": {
+            "Manejador": 0, "Tipo": 0, "Ip": 335653056, "Puerto": 5510,
+            "BD": "73-F5-A4-1C-B9-C3-F2-05-B9-58-39-84-9A-88-37-BA",
+            "Usuario": "D5-0B-A7-AF-6F-34-81-2B-10-A6-3C-3C-24-44-D7-EB",
+            "Contrasena": "D8-EA-86-45-E7-3A-DC-F1-57-3A-D4-3E-0C-3F-EE-AE",
+            "NumeroConexiones": 2
+        },
+        "BD3": {
+            "Manejador": 0, "Tipo": 0, "Ip": 268544192, "Puerto": 5432,
+            "BD": "39-8F-47-C1-80-C4-9E-83-98-49-93-EE-FA-7B-50-1A",
+            "Usuario": "D5-0B-A7-AF-6F-34-81-2B-10-A6-3C-3C-24-44-D7-EB",
+            "Contrasena": "92-8D-8E-3F-FC-9F-A9-D5-48-9C-1D-2C-D7-1E-E9-14",
+            "NumeroConexiones": 2
+        }
+    },
+    "FuncionesBD": {
+        "S1_F1_P1": "BD1",
+        "S1_F2_P1": "BD1",
+        "S1_F2_P2": "BD1",
+        "S1_F3_P1": "BD1",
+        "S1_F3_P2": "BD1", 
+        "S1_F4_P1": "BD1",
+
+        "S2_F1_P1": "BD2",
+        "S2_F2_P1": "BD2",
+        "S2_F2_P2": "BD2",
+        "S2_F3_P1": "BD2",
+        "S2_F3_P2": "BD2", 
+        "S2_F4_P1": "BD2",
+
+        "S3_F1_P1": "BD3",
+
+        "S4_F1_P1": "BD3",
+        
+        "S5_F1_P1": "BD3"
+    }
+}
